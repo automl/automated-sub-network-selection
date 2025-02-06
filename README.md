@@ -1,6 +1,3 @@
-### Running importance scoring followed by search
+### Official Repo for the paper "Compressing Large Language Models with Automated Sub-Network Search"
 
-```
-python importance/get_importance.py --model_id EleutherAI/pythia-1b --num_batches 100 --objective norm
-python llm_compression/fine_tuning EleutherAI/pythia-1b --sampling_strategy "importance-grid-params" --importance_objective norm
-```
+### Note: We are in the process of updating the code with major updates to the repo comming soon!
